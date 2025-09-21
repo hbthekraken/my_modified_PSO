@@ -239,7 +239,7 @@ constraints are enforced in the ST algorithm.
 **Particle Set-up and Update Formula of ST:**
 
 TS algorithm uses an initially given search space of the form
-$$\Omega = \overrightarrow{\mathbf{\mu}} + \lbrack - L,L\rbrack^{n} \subset \mathbb{R}^{n}$$
+$$\Omega = \overrightarrow{\mathbf{\mu}} + [-L,L]^{n} \subset \mathbb{R}^{n}$$
 where $$\overrightarrow{\mathbf{\mu}} \in \mathbb{R}^{n}$$ is the center
 of the hypercube, generally the origin. Given the team size $$N \geq 2$$
 and team number $$K \geq 2$$, a radius $$r_{c} = \frac{L}{\sqrt[n]{K}}$$ is
