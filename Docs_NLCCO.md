@@ -1,6 +1,6 @@
-**Nonlinear Constrained Continuous Optimization with** OptimizationModel
+**Nonlinear Constrained Continuous Optimization with** `OptimizationModel`
 
-OptimizationModel is a class that can model and optimize a nonlinear constrained continuous programming problem. A general continuous programming problem in mathematical notation could be as follows:
+`OptimizationModel` is a class that can model and optimize a nonlinear constrained continuous programming problem. A general continuous programming problem in mathematical notation could be as follows:
 
 $$\min{z = f\left( \overrightarrow{\mathbf{x}} \right)}$$
 
@@ -10,7 +10,8 @@ $$G\left( \overrightarrow{\mathbf{x}} \right)\mathbf{\leq}\overrightarrow{\mathb
 
 $$E\left( \overrightarrow{\mathbf{x}} \right) = \overrightarrow{\mathbf{d}_{m}} \in \mathbb{R}^{m}$$
 
-where $G:\mathbb{R}^{n} \rightarrow \mathbb{R}^{k}$ and $E:\mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$ are two functions that represent the constraints, $f:\mathbb{R}^{n}\mathbb{\rightarrow R}$ is the objective function and $\overrightarrow{\mathbf{x}} \in \mathbb{R}^{n}$.
+where $G:\mathbb{R}^{n} \rightarrow \mathbb{R}^{k}$ and $E:\mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$ are two functions that represent the constraints, $f:\mathbb{R}
+^{n}\mathbb{\rightarrow R}$ is the objective function and $\overrightarrow{\mathbf{x}} \in \mathbb{R}^{n}$.
 
 Since any maximization problem can be converted to a minimization problem and any greater than inequalities can be converted to less than inequalities, this model is assumed for generality. Nevertheless, the OptimizationModel supports adding greater-than inequalities too.
 
